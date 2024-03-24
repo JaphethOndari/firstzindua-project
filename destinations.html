@@ -1,83 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destinations</title>
     <style>
-    * {
-      padding: 0px;
-      margin: 0px;
-      box-sizing: border-box;
-      flex-direction: row;
-    }
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        flex-direction: row;
+      }
 
-    div {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-    a {
-      text-decoration: none;
-    }
+      div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+      a {
+        text-decoration: none;
+      }
 
-    nav {
-      height: 12dvh;
-      border-bottom: 2px solid rgb(104, 104, 104);
-      background-color: white;
-      opacity: 100%;
-      position: fixed;
-      top: 0;
-      width: 100%;
+      nav {
+        height: 12dvh;
+        border-bottom: 2px solid rgb(104, 104, 104);
+        background-color: white;
+        opacity: 100%;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
 
-    }
-
-    nav a {
-      float: right;
-      display: block;
-      color: black;
-      padding: 30px;
-
-    }
+      nav a {
+        float: right;
+        display: block;
+        color: black;
+        padding: 30px;
+      }
+      .cards {
+        border-radius: 5px;
+        border: 3px solid black;
+        margin: 70px;
+        width: 300px;
+        padding: 20px;
+        height: 500px;
+      }
+      p {
+        width: 230px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <nav>
-            <a href="">FAQ</a>
-            <a href="contactus.html">CONTACT</a>
-            <a href="aboutus.html">ABOUT</a>
-          <a href="index.html">HOME</a>
-        </nav>
+      <nav>
+        <a href="">FAQ</a>
+        <a href="contactus.html">CONTACT</a>
+        <a href="aboutus.html">ABOUT</a>
+        <a href="index.html">HOME</a>
+      </nav>
+    </div>
+    <div>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/oman.jpeg"
+            height="250px"
+            width="230px"
+            style="padding: 10px"
+          />
+          <h1 style="text-align: center">OMAN</h1>
+          <p>
+            Oman, a nation on the southeastern coast of the Arabian Peninsula,
+            has an economy that is diversifying beyond its traditional reliance
+            on oil and gas exports. This diversification strategy has led to the
+            expansion of various sectors
+            <a href="oman.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="oman.html" alt="">
-        <h1> OMAN</h1>
-        <p></p>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/Riyadh, Kingdom of Saudi Arabia.jpeg"
+            height="250px"
+            alt=""
+            style="padding: 10px"
+            height="250px"
+            width="230px"
+          />
+          <h1 style="text-align: center">Saudi Arabia</h1>
+          <p>
+            Saudi Arabia, the largest country in the Middle East, offers a
+            diverse range of job opportunities for both expatriates and Saudi
+            nationals. With a rapidly growing economy fueled
+            <a href="saudi.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/oman.jpeg"
+            height="250px"
+            alt=""
+            style="padding: 10px"
+            height="250px"
+            width="230px"
+          />
+          <h1 style="text-align: center">Dubai</h1>
+          <p>
+            Dubai, known for its towering skyscrapers, luxurious lifestyle, and
+            booming economy, offers a plethora of job opportunities to both
+            locals and <a href="dubai.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
+    </div>
+    <div>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/canada.jpeg"
+            height="250px"
+            alt=""
+            style="padding: 10px"
+            height="250px"
+            width="230px"
+          />
+          <h1 style="text-align: center">Canada</h1>
+          <p>
+            Canada is known for its strong economy, high quality of life, and
+            welcoming attitude towards immigrants, making it an attractive
+            destination for job seekers from around
+            <a href="canada.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/turkey.jpeg"
+            height="250px"
+            alt=""
+            style="padding: 10px"
+            height="250px"
+            width="230px"
+          />
+          <h1 style="text-align: center">Turkey</h1>
+          <p>
+            Turkey, situated at the crossroads of Europe and Asia, boasts a
+            diverse and rapidly growing economy, making it an appealing
+            destination for job
+            <a href="turkey.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
+      <div class="cards">
+        <section style="display: block; width: 300px; text-align: justify">
+          <img
+            src="img/australia.jpeg"
+            height="250px"
+            alt=""
+            style="padding: 10px"
+            height="250px"
+            width="230px"
+          />
+          <h1 style="text-align: center">Australia</h1>
+          <p>
+            Australia boasts a robust and diverse job landscape, attracting
+            professionals from around the globe. Whether
+            <a href="australia.html"><strong>read more</strong></a>
+          </p>
+        </section>
       </div>
-      <div class="">
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
-      </div>
-</body>
+    </div>
+  </body>
 </html>
