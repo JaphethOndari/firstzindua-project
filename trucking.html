@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trucking</title>
+    <style>
+            * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    button {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: #1f2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.label {
+  position: relative;
+  top: -1px;
+}
+
+.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+    
+
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+            <p>
+In a world where goods and services traverse continents, truck drivers play a vital role in keeping economies moving. If you're considering a career as a truck driver abroad, here's a comprehensive guide to help you navigate the road ahead.
+
+ Global Demand for Truck Drivers
+
+Truck driving is a profession in high demand across the globe. As economies expand and international trade flourishes, the need for skilled truckers continues to grow. Here are some countries where truck driving offers exciting opportunities:
+
+<h2>1. Australia</h2>
+
+Australia boasts a thriving trucking industry, and it's an excellent place for truck drivers to start a new business or find employment. Surprisingly, Australian truckers can earn an average salary of up to **$70,000 (USD)**, and this figure increases if they transport goods across state borders. Interstate truckers can even see their annual salaries rise to **$100,000 (USD)**¹.
+
+<h2>2. Norway</h2>
+
+Norway, known for its stable economic system, offers favorable job prospects for truck drivers. Here, truckers work a standard five-day week, with no more than **7.5 hours** per day. On average, Norwegian truckers earn around $58,000 (USD) annually. For those willing to put in extra hours, the potential income can reach much higher ammounts
+
+<h3>3. The United States</h3>
+
+The U.S. economy heavily relies on the transportation of goods and services, making truck drivers indispensable. The American trucking industry is expected to grow significantly in the coming years, leading to a consistent demand for truckers. The average salary for U.S. truckers hovers around $53,000. The best part? You can start your trucking career early without needing a college degree.
+
+<h2>2. Legal Considerations</h2>
+
+Before embarking on an overseas trucking adventure, consider the following legal aspects:
+
+Visas and Work Permits
+
+To work as a truck driver abroad, you may need to pass additional tests and licensing exams. Research the specific requirements for your chosen country and obtain the necessary work visa.
+
+Credential Evaluation
+
+Ensure your qualifications align with local standards. Some countries may require you to prove the equivalence of your education and experience.
+
+<h3>3. Cultural Adaptation</h3>
+
+Trucking abroad means immersing yourself in different cultures. Learn basic phrases in the local language, respect customs, and adapt to new ways of doing things.
+
+<h3>4. Challenges and Reward</h3>
+
+While trucking abroad offers adventure and financial rewards, it also comes with challenges. Long hours, unfamiliar roads, and separation from family are part of the package. However, the thrill of exploring new landscapes and contributing to global trade can make it all worthwhile.
+
+Conclusion
+
+Truck driving across borders opens doors to exciting experiences and a chance to be part of the world's interconnected supply chain. Whether you're hauling goods through the Australian Outback, Norwegian fjords, or American highways, the open road awaits! 
+
+            </p>
+        </section>
+    </div>
+    <div style="display: flex; justify-content: center; padding: 20px;">
+
+        <a href="jobs.html">
+            <button>
+                <span class="transition"></span>
+                <span class="gradient"></span>
+                <span class="label">BACK</span>
+            </button>
+        </a>
+    </div>
+</body>
+</html>

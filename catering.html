@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catering</title>
+    <style>
+            * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    button {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: #1f2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.label {
+  position: relative;
+  top: -1px;
+}
+
+.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+    
+
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+            <p>
+The world of hotel catering is a tantalizing blend of flavors, cultures, and hospitality. If you're passionate about food, service, and adventure, consider taking your culinary skills on a global tour. Here's a guide to help you savor the delectable opportunities awaiting you:
+
+1. The Allure of Hotel Catering Abroad
+
+A Feast for the Senses
+
+Working as a hotel caterer abroad means immersing yourself in diverse cuisines, from sushi in Tokyo to tapas in Barcelona. Each dish tells a story, and you'll be the storyteller, creating memorable dining experiences for guests from around the world.
+
+Cultural Exchange
+
+As a hotel caterer, you'll collaborate with local chefs, learn age-old techniques, and adapt recipes to suit international palates. Your culinary passport will be stamped with flavors from every corner of the globe.
+
+2. Countries to Satisfy Your Culinary Wanderlust
+
+1. France
+
+The epitome of gastronomy, France beckons with its buttery croissants, velvety sauces, and delicate pastries. Work in a Parisian brasserie or a countryside château, and let French cuisine ignite your creativity.
+
+2. Italy
+
+Picture yourself in a Tuscan villa, crafting handmade pasta and perfecting the art of pizza. Italy's regional specialties—risotto in Milan, gelato in Florence—await your culinary touch.
+
+3. Thailand
+
+Spices dance in Thai dishes—tom yum soup, green curry, and mango sticky rice. Work in a beachfront resort in Phuket or a bustling Bangkok hotel, where the aroma of lemongrass fills the air.
+
+4. Spain
+
+Tapas, paella, and sangria—Spain's vibrant food scene invites you to join the fiesta. From Barcelona's bustling markets to Andalusian haciendas, your taste buds will salsa with delight.
+
+3. Practical Considerations
+
+Visas and Work Permits
+
+Research visa requirements for your chosen destination. Some countries offer working holiday visas, while others require sponsorship from employers.
+
+Language Skills
+
+Master basic phrases in the local language. Communication is key, especially when coordinating events and serving guests.
+
+Adaptability
+
+Hotel catering can be intense, especially during weddings, conferences, and galas. Flexibility and grace under pressure are essential.
+
+4. Rewards Beyond the Kitchen
+
+Culinary Adventure
+
+Explore local markets, discover hidden eateries, and learn secret recipes from grandmas in aprons. Your taste buds will thank you.
+
+Career Growth
+
+Hotel catering abroad opens doors to managerial roles, event planning, and even owning your own restaurant someday.
+
+Conclusion
+
+Pack your chef's knife, tie your apron, and embark on a culinary odyssey. Whether you're plating sushi in Tokyo or baking baguettes in Paris and the rest of the world.
+
+
+            </p>
+        </section>
+    </div>
+    <div style="display: flex; justify-content: center; padding: 20px;">
+
+        <a href="jobs.html">
+            <button>
+                <span class="transition"></span>
+                <span class="gradient"></span>
+                <span class="label">BACK</span>
+            </button>
+        </a>
+    </div>
+</body>
+</html>
